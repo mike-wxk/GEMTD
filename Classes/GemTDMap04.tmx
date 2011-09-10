@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="24" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../../../iosProject/AStarPathFinder/AStarPathFinder/tmw_desert_spacing.png" width="265" height="199"/>
+  <tile id="14">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="0"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="CollideLayer" width="24" height="16">
+  <data encoding="base64">
+   GQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAbAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAjAAAAIQAAACYAAAAeAAAAHgAAACYAAAAeAAAAJgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAmAAAAJgAAACYAAAAmAAAAJgAAAB4AAAAjAAAALgAAAA8AAAAmAAAAHwAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAfAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAB8AAAAeAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAJgAAAB4AAAAmAAAAHgAAACYAAAAeAAAAJgAAAB4AAAAPAAAAHgAAACYAAAAeAAAAHgAAACYAAAAeAAAAHgAAAA8AAAAeAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAADwAAACYAAAAeAAAAHgAAACYAAAAeAAAAJgAAAB4AAAAPAAAAJgAAACYAAAAeAAAAHgAAACYAAAAmAAAAHgAAAA8AAAAmAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAADwAAAB4AAAAmAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAPAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHgAAAA8AAAAmAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAADwAAAB4AAAAeAAAAJgAAAB4AAAAeAAAAJgAAAB4AAAAPAAAAJgAAACYAAAAeAAAAJgAAAB4AAAAeAAAAHgAAAA8AAAAmAAAAJgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAHwAAAA8AAAAPAAAADwAAACYAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAB8AAAAmAAAAJgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAPAAAAJgAAAB4AAAAmAAAAHgAAAB4AAAAeAAAAJgAAAB4AAAAmAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAJgAAAB4AAAAPAAAAJgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAJgAAAB4AAAAmAAAAHgAAACYAAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAPAAAAHgAAACYAAAAeAAAAHgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAfAAAADwAAACYAAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAoAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAmAAAAJgAAAB4AAAAmAAAAHgAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAJgAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAjAAAAKQAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAArAAAA
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="24" height="16">
+  <object name="waypoint0" x="3" y="102" width="19" height="17"/>
+  <object name="waypoint1" x="751" y="401"/>
+ </objectgroup>
+</map>
