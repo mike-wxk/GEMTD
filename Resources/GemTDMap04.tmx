@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+  <tile id="14">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="COLLIDE" value="0"/>
+    <property name="buildable" value="0"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="COLLIDE" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="CollideLayer" width="20" height="16">
+  <data encoding="base64">
+   GQAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABoAAAAaAAAAGgAAABsAAAAhAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAeAAAAIwAAACEAAAAmAAAAHgAAAB4AAAAmAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAeAAAAJgAAACYAAAAjAAAALgAAAA8AAAAmAAAAHwAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAHwAAAB8AAAAfAAAADwAAAA8AAAAPAAAADwAAAA8AAAAfAAAAHgAAACMAAAAhAAAAHgAAAB4AAAAmAAAAHgAAACYAAAAeAAAAJgAAAB4AAAAmAAAADwAAAB4AAAAeAAAAJgAAAB4AAAAeAAAAHgAAAA8AAAAeAAAAIwAAACEAAAAeAAAAJgAAAA8AAAAeAAAAHgAAAB4AAAAmAAAAHgAAACYAAAAPAAAAHgAAACYAAAAmAAAAHgAAAB4AAAAeAAAADwAAAB4AAAAjAAAAIQAAAB4AAAAmAAAADwAAAB4AAAAmAAAAHgAAAB4AAAAmAAAAHgAAAA8AAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAPAAAAHgAAACMAAAAhAAAAHgAAAB4AAAAPAAAAHgAAAB4AAAAmAAAAHgAAACYAAAAmAAAADwAAAB4AAAAmAAAAJgAAAB4AAAAmAAAAHgAAAA8AAAAeAAAAIwAAACEAAAAmAAAAJgAAAB8AAAAPAAAADwAAAA8AAAAmAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAAHwAAAB4AAAAjAAAAIQAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAJgAAAB4AAAAmAAAAHgAAAA8AAAAeAAAAJgAAAB4AAAAmAAAAHgAAAB4AAAAeAAAAJgAAACMAAAAhAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAmAAAADwAAAB4AAAAmAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAmAAAAIwAAACEAAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAmAAAAHgAAAB4AAAAPAAAAHgAAAB4AAAAmAAAAHgAAACYAAAAmAAAAJgAAACYAAAAjAAAAIQAAAB4AAAAmAAAAJgAAAB4AAAAmAAAAHgAAACYAAAAeAAAAJgAAAB8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAC4AAAAhAAAAHgAAAB4AAAAeAAAAJgAAAB4AAAAeAAAAJgAAAB4AAAAmAAAAHgAAACYAAAAeAAAAHgAAACYAAAAeAAAAHgAAACYAAAAmAAAAIwAAACEAAAAeAAAAHgAAAB4AAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAeAAAAHgAAACYAAAAeAAAAHgAAAB4AAAAjAAAAKQAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACsAAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="20" height="16">
+  <object name="waypoint1" x="112" y="112"/>
+  <object name="waypoint2" x="112" y="272"/>
+  <object name="waypoint3" x="560" y="272"/>
+  <object name="waypoint4" x="560" y="112"/>
+  <object name="waypoint5" x="336" y="112"/>
+  <object name="waypoint6" x="336" y="400"/>
+  <object name="waypoint7" x="624" y="400"/>
+  <object name="waypoint0" x="16" y="112"/>
+ </objectgroup>
+</map>
